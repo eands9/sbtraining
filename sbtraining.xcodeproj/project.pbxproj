@@ -12,6 +12,8 @@
 		6DDD82E8220F588600D8CA00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DDD82E6220F588600D8CA00 /* Main.storyboard */; };
 		6DDD82EA220F588800D8CA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DDD82E9220F588800D8CA00 /* Assets.xcassets */; };
 		6DDD82ED220F588800D8CA00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DDD82EB220F588800D8CA00 /* LaunchScreen.storyboard */; };
+		6DDD82F6220F58C100D8CA00 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDD82F5220F58C100D8CA00 /* Word.swift */; };
+		6DDD82F8220F58D300D8CA00 /* WordBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDD82F7220F58D300D8CA00 /* WordBank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		6DDD82E9220F588800D8CA00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DDD82EC220F588800D8CA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DDD82EE220F588800D8CA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DDD82F5220F58C100D8CA00 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		6DDD82F7220F58D300D8CA00 /* WordBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordBank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				6DDD82E9220F588800D8CA00 /* Assets.xcassets */,
 				6DDD82EB220F588800D8CA00 /* LaunchScreen.storyboard */,
 				6DDD82EE220F588800D8CA00 /* Info.plist */,
+				6DDD82F5220F58C100D8CA00 /* Word.swift */,
+				6DDD82F7220F58D300D8CA00 /* WordBank.swift */,
 			);
 			path = sbtraining;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DDD82E5220F588600D8CA00 /* ViewController.swift in Sources */,
+				6DDD82F8220F58D300D8CA00 /* WordBank.swift in Sources */,
 				6DDD82E3220F588600D8CA00 /* AppDelegate.swift in Sources */,
+				6DDD82F6220F58C100D8CA00 /* Word.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
